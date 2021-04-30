@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SeoulHangangM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    position: relative;
+    height: 100%;
+    min-width: 300px;
+    margin: 0;
+    font: 400 15px/1.6 "Lato", sans-serif;
+    color: #555;
+    background-color: #f2bdab;
+}
+
+/* .caption {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.9;
+  } */
+
+  /* Extra style for Bootstrap nav */
+nav {
+    letter-spacing: 1px;
+    background-color: #f2bdab;
+    /* box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.3); */
+}
+
+.navbar img{
+    width: 80%;
+    margin-left: 40%;
+}
+
+.bg{
+    background-color: #f2bdab;
+}
+
+nav .container {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.bgimg-1{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.bgimg-1 {
+    background-image: url('../images/1.jpg');
+    height: 100%;
+}
+
+.bgimg-2{
+    padding: 10%;
+    background-color: white;
+}
+
+.bgimg-4{
+    padding: 1%;
+    background-color: #f2bdab;
+}
+
+.iu-pic{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.iu-pic img{
+    width: 100%;
+}
+
+.bgimg-5{
+    padding: 5%;
+    background-color: white;
+    padding-top: 10%;
+}
+
+.iunews img{
+    width: 100%;
+}
+
+/* .bgimg-2 {
+    background-image: url('../images/ddd.jpg');
+    min-height: 400px;
+  } */
+
+.padded{
+    padding: 0 30px 60px 30px;
+}
+
+  
+h2{
+    padding: 2%;
+    font-family: 'RIDIBatang';
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+}
+
+p{
+    padding: 2%;
+    font-family: 'RIDIBatang';
+    color: rgb(87, 87, 87);
+}
+
+.text-box {
+    text-align: justify;
+    margin-top: 20%;
+  }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    padding-top: 50px;
+    background-color: white;
+}
+
+  
+h3 {
+    font-family: 'SeoulHangangM';
+    padding-top: 24px;
+    letter-spacing: 2px;
+}
+
+.h3, h3 {
+    font-size: 1.45rem;
+}
+  
+.overlay {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* left: 15px;
+    right: 15px; */
+    opacity: 0.8;
+    transition: .3s ease;
+    background-color: #222;
+    background-color: rgba(2, 2, 2, 0.8);
+}
+
+.sns {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.sns h1{
+    font-family: 'Cafe24Ohsquare';
+    color: #fff;
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-family: 'Cafe24Ohsquare';
+    color: black;
+}
+
+.padded2 {
+    padding: 0px 10px 153px 0px;
+}
+
+.video1{
+    margin-bottom: 5%;
+}
+
+.video2 img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.video2-pic{
+    width: 100%;
+}
+
+.video2-pic img{
+    width: 100%;
+}
+
+
+.nav.nav-tabs {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-bottom:0; 
+    padding-right: 15px;
+}
+
+
+/* .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}  */
+
+.tab-video .nav-link.active {
+    border-color: transparent !important;
+} 
+
+/* .tab-video .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0rem!important;
+    border-top-right-radius: 0rem!important;
+} */
+
+.tab-content>.active {
+    display: block;
+    min-height: 165px;
+}
+
+.nav.tab-video {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-bottom: 0;
+    padding-right: 15px;
+} 
+
+.nav-item h2{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 14%;
+}
+
+h1{
+    font-family: 'SeoulHangangM';
+}
+
+.navnar{
+    background-color: initial;
+}
+
+.iunews h1{
+    font-size: 30px;
+    color: black; 
+    font-weight: 500; 
+}
+
+.iunews h2{
+    font-size: 20px;
+    color: black; 
+    font-weight: 500; 
+}
+
+.video1 h3{
+    font-weight: bold;
+    color: black;
+}
+
+.bgimg-6{
+    background-color: #f2bdab;
+    padding: 5%;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+    background-color: #f2bdab;
+}
+
+.iu-video{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.iu-video img{
+    width: 100%;
+}
+
+.clip-video{
+    margin-bottom: 5%;
+}
+
+.clip-video h1{
+    font-family: 'Cafe24Ohsquare';
+    color: #fff;
+    font-size: 3rem;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+}
+
+.footer1 p{
+    color: white;
+}
